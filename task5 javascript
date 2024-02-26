@@ -1,0 +1,113 @@
+//operators
+//Arithmetic operators
+//Assigment operators
+//Comparision operators
+//Logical operators
+
+let num1=10;
+let num2=15;
+
+console.log(num1+num2);//Arithmetic operators
+console.log(num1-num2);//Arithmetic operators
+console.log(num1%num2);//Arithmetic operators
+console.log(num1/num2);//Arithmetic operators
+console.log(num1*num2);//Arithmetic operators
+
+console.log(num1=num2);//Assigment operators
+console.log(num1+=num2);//Assigment operators
+console.log(num1-=num2);//Assigment operators
+console.log(num1*=num2);//Assigment operators
+console.log(num1/=num2);//Assigment operators
+console.log(num1%=num2);//Assigment operators
+
+console.log(num1==num2);//Comparision operators
+console.log(num1===num2);//Comparision operators
+console.log(num1!=num2);//Comparision operators
+console.log(num1<num2);//Comparision operators
+console.log(num1>num2);//Comparision operators
+console.log(num1<=num2);//Comparision operators
+console.log(num1>=num2);//Comparision operators
+
+
+// logical AND
+console.log(true && true); // true
+console.log(true && false); // false
+
+// logical OR
+console.log(true || false); // true
+console.log(false || false); // flase
+
+// logical NOT
+console.log(!true);//false
+
+
+
+//Functions
+function add(number1,number2){
+    console.log(number1+number2);
+}
+function sub(number1,number2){
+    console.log(number1-number2);
+}
+function multi(number1,number2){
+    console.log(number1*number2);
+}
+
+ add(2,3);
+ sub(10,5);
+ multi(10,5);
+
+ //condition staments
+ let number1=10;
+ let number2=20;
+ if(number1==15){
+   console.log("this is true");
+}
+else if(number2<10){
+    console.log("this is also true")
+}
+else{
+    console.log("this is flase")
+}
+ //loops
+for(i=0;i<5;i++){
+    console.log("helloworld");
+}
+
+for(i=0;i<5;i++){
+    console.log("i");
+}
+for(i=10;i>=0;i--){
+    console.log("i");
+}
+let number=0;
+while(number<10){
+    console.log("hello world");
+    number++;
+}
+
+// String methods
+const name = "nethaji";
+
+console.log("Length: " + name.length);
+console.log("Uppercase: " + name.toUpperCase());
+console.log("Lowercase: " + name.toLowerCase());
+console.log("Slice: " + name.slice(0, 5));
+console.log("Replace: " + name.replace("nethaji", "Muthamsetty"));
+console.log("Concat: " + name.concat(" is a rohitsharma fan"));
+console.log("Trim: " + "   nethaji   ".trim());
+console.log("Split: " + name.split("  "));
+console.log("Index of: " + name.indexOf("j"));
+console.log("Includes: " + name.includes("aj"));
+console.log("Starts with: " + name.startsWith("n"));
+console.log("Ends with: " + name.endsWith("a"));
+
+
+let fname="Muthamsetty";
+console.log("length:" + fname.length);
+
+let mname="Muthamsetty";
+let Lname="nethaji";
+console.log("fullname:" + mname+Lname);
+
+
